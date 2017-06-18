@@ -85,11 +85,11 @@ def main():
 
     dispatcher.add_handler(menu_conversation)
 
-    #updater.bot.delete_webhook()
-    updater.start_polling()
+    updater.bot.delete_webhook()
+    #updater.start_polling()
 
-    #updater.bot.set_webhook(url='https://timebotserver.ml/383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I')
-    #updater.start_webhook(listen='127.0.0.1', port=5000, url_path='383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I')
+    updater.bot.set_webhook(url='https://timebotserver.ml/383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I')
+    updater.start_webhook(listen='127.0.0.1', port=5000, url_path='383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I')
     #print updater.bot.get_webhook_info()
     updater.idle()
 
