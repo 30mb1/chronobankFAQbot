@@ -84,6 +84,10 @@ def main():
                           cert='/etc/letsencrypt/live/timebotserver.ml/cert.pem',
                           webhook_url='https://timebotserver.ml:8443/383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I')
 
+    updater.bot.set_webhook(webhook_url='https://timebotserver.ml/383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I',
+                            certificate=open('/etc/letsencrypt/live/timebotserver.ml/cert.pem', 'rb'),
+                            max_connections=100)
+
     updater.idle()
 
 if __name__ == '__main__':
