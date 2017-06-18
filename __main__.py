@@ -77,7 +77,13 @@ def main():
     dispatcher.add_handler(menu_conversation)
 
 
-    updater.start_polling()
+    #updater.start_polling()
+    updater.start_webhook(listen='104.131.182.147', port=8443,
+                          url_path='383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I',
+                          key='/etc/letsencrypt/live/timebotserver.ml/privkey.pem',
+                          cert='/etc/letsencrypt/live/timebotserver.ml/cert.pem',
+                          webhook_url='https://timebotserver.ml:8443/383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I')
+
     updater.idle()
 
 if __name__ == '__main__':
