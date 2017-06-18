@@ -78,7 +78,7 @@ def main():
 
 
     #updater.start_polling()
-    updater.start_webhook(listen='104.131.182.147', port=8443,
+    '''updater.start_webhook(listen='104.131.182.147', port=8443,
                           url_path='383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I',
                           key='/etc/letsencrypt/live/timebotserver.ml/privkey.pem',
                           cert='/etc/letsencrypt/live/timebotserver.ml/cert.pem',
@@ -86,7 +86,11 @@ def main():
 
     updater.bot.set_webhook(webhook_url='https://timebotserver.ml/383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I',
                             certificate=open('/etc/letsencrypt/live/timebotserver.ml/cert.pem', 'rb'),
-                            max_connections=100)
+                            max_connections=100)'''
+
+    updater.start_webhook(listen='127.0.0.1', port=5000, url_path='383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I')
+    updater.bot.set_webhook(webhook_url='https://timebotserver.ml/383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I',
+                            certificate=open('/etc/letsencrypt/live/timebotserver.ml/fullchain.pem', 'rb'))
 
     updater.idle()
 
