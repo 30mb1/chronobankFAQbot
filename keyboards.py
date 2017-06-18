@@ -2,16 +2,26 @@
 from telegram import ReplyKeyboardMarkup
 
 class Keyboard():
-    one = ReplyKeyboardMarkup([['1'], ['Back⬅', 'Menu']], resize_keyboard=True)
+    l3_one = ReplyKeyboardMarkup([['1'], ['Back⬅', 'Menu']], resize_keyboard=True)
 
-    two = ReplyKeyboardMarkup([['1', '2'], ['Back⬅', 'Menu']], resize_keyboard=True)
+    l3_two = ReplyKeyboardMarkup([['1', '2'], ['Back⬅', 'Menu']], resize_keyboard=True)
 
-    three = ReplyKeyboardMarkup([['1', '2', '3'], ['Back⬅', 'Menu']], resize_keyboard=True)
+    l3_three = ReplyKeyboardMarkup([['1', '2', '3'], ['Back⬅', 'Menu']], resize_keyboard=True)
 
-    four = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['Back⬅', 'Menu']], resize_keyboard=True)
+    l3_four = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['Back⬅', 'Menu']], resize_keyboard=True)
 
-    five = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['5', 'Back⬅', 'Menu']], resize_keyboard=True)
+    l3_five = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['5', 'Back⬅', 'Menu']], resize_keyboard=True)
 
-    six = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['5', '6', 'Back⬅', 'Menu']], resize_keyboard=True)
+    l3_six = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['5', '6', 'Back⬅', 'Menu']], resize_keyboard=True)
 
-    seven = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['5', '6', '7']], resize_keyboard=True)
+    l3_seven = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['5', '6', '7',  'Back⬅', 'Menu']], resize_keyboard=True)
+
+    menu_keyboard = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['5', '6', '7']], resize_keyboard=True)
+
+    l2_two = ReplyKeyboardMarkup([['1', '2'], ['Menu']], resize_keyboard=True)
+
+    l2_three = ReplyKeyboardMarkup([['1', '2', '3'], ['Menu']], resize_keyboard=True)
+
+    l2_four = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['Menu']], resize_keyboard=True)
+
+    l3_seven = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['5', '6', '7', 'Menu']], resize_keyboard=True)
