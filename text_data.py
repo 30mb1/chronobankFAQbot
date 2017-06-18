@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+
 class Texts():
 
     menu_text = ("*1*. I'm a newbie! What is Chronobank?\n"
@@ -24,7 +27,8 @@ class Texts():
 
     t4 = ("*1*. How can I get my tokens out of my Chronobank platform?\n"
           "*2*. How is the progress with LaborX?\n"
-          "*3*. I can see my token but don't know how to swap or withdraw?")
+          "*3*. I can see my token but don't know how to swap or withdraw?\n"
+          "*4*. What are the benefits for TIME holders in the future?")
 
     t5 = ("*1*. When TIME will get pumped?\n"
           "*2*. I've lost 50% of my depo, why should I keep TIME?\n"
@@ -36,19 +40,19 @@ class Texts():
     t6 = "@chronobank"
 
     t1_1 = ("*What is Chronobank and its main idea?*\n"
-            "asnwer in progress")
+            '''Chronobank is a system that guarantees that people will always get paid for their work according to their effort, as well as a system that provides the most sustainable stable token on Ethereum and other participating blockchains. Chronobank uses big and reputable labour hire/HR companies to guarantee the supply of labour hours that are issued, essentially creating an alternative to the traditional banks, which is much cheaper and more transparent.''')
 
     t1_2 = ("*Why is ChronoBank better than any other projects and fiat currencies?*\n"
-            "asnwer in progress")
+            "You can read about our advantages in the [Business Proposal document](https://chronobank.io/files/business_outline.pdf) on our website.")
 
     t1_3 = ("*What is TIME token and LH token?*\n"
-            "asnwer in progress")
+            "TIME tokens are used to finance the development of the system. It will receive fees from LH issuance and transactions. LH tokens will act as a substitute for payments in fiat currencies and will enable people to be rewarded for their work – without cryptocurrency’s signature volatility risk.")
 
     t1_4 = ("*How can I register on your website?*\n"
-            "asnwer in progress")
+            "You can’t do it now because it was available only during our ICO.")
 
     t1_5 = ("*Are there any beta-versions now?*\n"
-            "asnwer in progress")
+            "Yes, there is ChronoMint beta-version: https://beta.chronobank.io")
 
     t2_1 = ("*1*. What blockchain do you use?\n"
             "*2*. Is it ERC20 token?\n"
@@ -59,16 +63,16 @@ class Texts():
             "*7*. Can I exchange TIME to ETH?")
 
     t2_1_1 = ("*What blockchain do you use?*\n"
-              "asnwer in progress")
+              "TIME token is on the Ethereum blockchain. LH tokens will be initially created on the Ethereum blockchain, and then the software will be ported to other blockchains: WAVES, NEM, ETC. We are focusing on the Ethereum blockchain; all others will be developed only after the system is fully operational, and there's a decent volume of LH tokens. In addition to that, we will have a 3rd party security audit of all smart contracts in the system.")
 
     t2_1_2 = ("*Is it ERC20 token?*\n"
               "asnwer in progress")
 
     t2_1_3 = ("*How can I buy TIME?*\n"
-              "asnwer in progress")
+              "You can buy it on https://bittrex.com and https://liqui.io")
 
     t2_1_4 = ("*How can I buy LH?*\n"
-              "asnwer in progress")
+              "LH tokens are not available yet.")
 
     t2_1_5 = ("*What wallet should I use for TIME and LH?*\n"
               "asnwer in progress")
@@ -77,11 +81,12 @@ class Texts():
               "asnwer in progress")
 
     t2_1_7 = ("*Can I exchange TIME to ETH?*\n"
-              "asnwer in progress")
+              "Yes, you can do it on https://bittrex.com or https://liqui.io")
 
     t2_2 = ("*1*. What is the company structure?\n"
             "*2*. What are the competitors on the market?\n"
-            "*3*. Where is the headquarters of a project?")
+            "*3*. Where is the headquarters of a project?\n"
+            "*4*. Who will pay the fee for the use of the platform: an employee or a customer?")
 
     t2_2_1 = ("*What is the company structure?*\n"
               "asnwer in progress")
@@ -90,14 +95,16 @@ class Texts():
               "asnwer in progress")
 
     t2_2_3 = ("*Where is the headquarters of a project?*\n"
-              "asnwer in progress")
+              "Chronobank core team is based in Sydney, Australia. There are a few members of our team that are based all over the world.")
+
+    t2_2_4 = ("*Who will pay the fee for the use of the platform: an employee or a customer?*\n"
+              "answer in progress")
 
     t2_3 = ("*1*. How LH is inflation proof?\n"
             "*2*. How will you control the volatility of LH?\n"
             "*3*. Will we be able to trade LH on usual crypto exchanges before LaborX release?\n"
-            "*4*. What is the percentage of tokens goes to investors?\n"
-            "*5*. What about pension contributions?\n"
-            "*6*. Is number of LH tokens infinite?")
+            "*4*. What about pension contributions?\n"
+            "*5*. Is number of LH tokens infinite?")
 
     t2_3_1 = ("*How LH is inflation proof?*\n"
               "asnwer in progress")
@@ -108,33 +115,29 @@ class Texts():
     t2_3_3 = ("*Will we be able to trade LH on usual crypto exchanges before LaborX release?*\n"
               "asnwer in progress")
 
-    t2_3_4 = ("*What is the percentage of tokens goes to investors?*\n"
+    t2_3_4 = ("*What about pension contributions?*\n"
               "asnwer in progress")
 
-    t2_3_5 = ("*What about pension contributions?*\n"
-              "asnwer in progress")
-
-    t2_3_6 = ("*Is number of LH tokens infinite?*\n"
-              "asnwer in progress")
+    t2_3_5 = ("*Is number of LH tokens infinite?*\n"
+              "The total number of coins will always depend on the number of companies in the system and labour hours available in those companies that companies are able to fulfill.")
 
     t2_4 = ("*1*. When will we see release of LH?\n"
             "*2*. When will LH debit card be released?\n"
             "*3*. Do you have any beta-versions to test now?\n"
             "*4*. How will you manage relations with governments?\n"
             "*5*. When Chronobank is successful, how will it affect the government economies?\n"
-            "*6*. Will there be a TIME-ETH pair on the market?\n"
-            "*7*. How will income tax be paid?\n"
-            "*8*. What is the forecast for the price till the end of the year?\n"
-            "*9*. Are there any good news or update?")
+            "*6*. How will income tax be paid?\n"
+            "*7*. What is the forecast for the price till the end of the year?\n"
+            "*8*. Are there any good news or update?")
 
     t2_4_1 = ("*When will we see release of LH?*\n"
-              "asnwer in progress")
+              "Beta-version will be ready by the end of the year.")
 
     t2_4_2 = ("*When will LH debit card be released?*\n"
               "asnwer in progress")
 
     t2_4_3 = ("*Do you have any beta-versions to test now?*\n"
-              "asnwer in progress")
+              "Yes, ChronoMint beta-version: https://beta.chronobank.io/")
 
     t2_4_4 = ("*How will you manage relations with governments?*\n"
               "asnwer in progress")
@@ -142,23 +145,29 @@ class Texts():
     t2_4_5 = ("*When Chronobank is successful, how will it affect the government economies?*\n"
               "asnwer in progress")
 
-    t2_4_6 = ("*Will there be a TIME-ETH pair on the market?*\n"
+    t2_4_6 = ("*How will income tax be paid?*\n"
               "asnwer in progress")
 
-    t2_4_7 = ("*How will income tax be paid?*\n"
+    t2_4_7 = ("*What is the forecast for the price till the end of the year?*\n"
               "asnwer in progress")
 
-    t2_4_8 = ("*What is the forecast for the price till the end of the year?*\n"
-              "asnwer in progress")
-
-    t2_4_9 = ("*Are there any good news or update?*\n"
-              "asnwer in progress")
+    t2_4_8 = ("*Are there any good news or update?*\n"
+              "Follow us on social media to stay up to date!")
 
     t3_1 = ("*Where can I check the progress of development?*\n"
-            "asnwer in progress")
+            "Github: https://github.com/ChronoBank\n"
+            "Slack: https://chronobank.herokuapp.com\n"
+            "Telegram: @chronobank")
 
     t3_2 = ("*Where can i find official links to social media?*\n"
-            "asnwer in progress")
+            "Website: https://chronobank.io\n"
+            "Blog: https://blog.chronobank.io\n"
+            "Bitcointalk: https://bitcointalk.org/index.php?topic=1680361.0\n"
+            "Reddit: https://www.reddit.com/r/ChronoBank/\n"
+            "Twitter: https://twitter.com/ChronobankNews\n"
+            "Facebook: https://www.facebook.com/ChronoBank.io\n"
+            "Slack: https://chronobank.herokuapp.com\n"
+            "Telegram: @chronobank")
 
     t3_3 = ("*Direct message to CEO! Use it after you've checked other branches of the bot.*\n"
             "asnwer in progress")
@@ -167,10 +176,13 @@ class Texts():
             "asnwer in progress")
 
     t4_2 = ("*How is the progress with LaborX?*\n"
-            "asnwer in progress")
+            "Beta-version of LaborX platform will be available by the end of the year.")
 
     t4_3 = ("*I can see my token but don't know how to swap or withdraw?*\n"
             "asnwer in progress")
+
+    t4_4 = ("*What are the benefits for TIME holders in the future?*\n"
+            "TIME holders will get rewards from various fees as the platform gains adoption and popularity. For more information check [White Paper](https://chronobank.io/files/whitepaper.pdf)")
 
     t5_1 = ("*When TIME will get pumped?*\n"
             "asnwer in progress")

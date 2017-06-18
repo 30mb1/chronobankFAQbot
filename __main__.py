@@ -60,20 +60,19 @@ def main():
 
             BRANCH2_3: [RegexHandler('^(1)$', br2.m_3_1), RegexHandler('^(2)$', br2.m_3_2),
                         RegexHandler('^(3)$', br2.m_3_3), RegexHandler('^(4)$', br2.m_3_4),
-                        RegexHandler('^(5)$', br2.m_3_5), RegexHandler('^(6)$', br2.m_3_6),
-                        RegexHandler('^(Back)$', br2.back)],
+                        RegexHandler('^(5)$', br2.m_3_5), RegexHandler('^(Back)$', br2.back)],
 
             BRANCH2_4: [RegexHandler('^(1)$', br2.m_4_1), RegexHandler('^(2)$', br2.m_4_2),
                         RegexHandler('^(3)$', br2.m_4_3), RegexHandler('^(4)$', br2.m_4_4),
                         RegexHandler('^(5)$', br2.m_4_5), RegexHandler('^(6)$', br2.m_4_6),
                         RegexHandler('^(7)$', br2.m_4_7), RegexHandler('^(8)$', br2.m_4_8),
-                        RegexHandler('^(9)$', br2.m_4_9), RegexHandler('^(Back)$', br2.back)],
+                        RegexHandler('^(Back)$', br2.back)],
 
             BRANCH3: [RegexHandler('^(1)$', br3.m_1), RegexHandler('^(2)$', br3.m_2),
                       RegexHandler('^(3)$', br3.m_3)],
 
             BRANCH4: [RegexHandler('^(1)$', br4.m_1), RegexHandler('^(2)$', br4.m_2),
-                      RegexHandler('^(3)$', br4.m_3)],
+                      RegexHandler('^(3)$', br4.m_3), RegexHandler('^(4)$', br4.m_4)],
 
             BRANCH5: [RegexHandler('^(1)$', br5.m_1), RegexHandler('^(2)$', br5.m_2),
                       RegexHandler('^(3)$', br5.m_3), RegexHandler('^(4)$', br5.m_4),
@@ -86,11 +85,11 @@ def main():
 
     dispatcher.add_handler(menu_conversation)
 
-    updater.bot.delete_webhook()
-    #updater.start_polling()
+    #updater.bot.delete_webhook()
+    updater.start_polling()
 
-    updater.bot.set_webhook(url='https://timebotserver.ml/383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I')
-    updater.start_webhook(listen='127.0.0.1', port=5000, url_path='383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I')
+    #updater.bot.set_webhook(url='https://timebotserver.ml/383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I')
+    #updater.start_webhook(listen='127.0.0.1', port=5000, url_path='383099020:AAG_L-5NahITmUTdJoYTSWMBX7n5561Pa8I')
     #print updater.bot.get_webhook_info()
     updater.idle()
 
