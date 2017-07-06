@@ -16,6 +16,10 @@ class Keyboard():
 
     l3_seven = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['5', '6', '7',  'Back', 'Menu']], resize_keyboard=True)
 
+    l3_eight = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['5', '6', '7', '8'],  ['Back', 'Menu']],
+                                    resize_keyboard=True)
+
+
     l3_nine = ReplyKeyboardMarkup([['1', '2', '3', '4'], ['5', '6', '7', '8'], ['9', 'Back', 'Menu']],
                                     resize_keyboard=True)
 
