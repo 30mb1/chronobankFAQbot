@@ -3,36 +3,36 @@
 
 class Texts():
 
-    menu_text = ("*1*. I'm a newbie! What is Chronobank?\n"
-                 "*2*. Tech and details!\n"
-                 "*3*. News!\n"
-                 "*4*. I am an investor!\n"
-                 "*5*. I'm a sophomore (or troll)! I wanna check what already been trolled about Chronobank, so I could be wittier in chat or Chronobank reddit or bitcointalk!\n"
+    menu_text = ("*1*. I'm a newbie. What is Chronobank?\n"
+                 "*2*. Tech and details.\n"
+                 "*3*. News.\n"
+                 "*4*. I am an investor.\n"
+                 "*5*. I'm a sophomore (or troll). I wanna check what already been trolled about Chronobank, so I could be wittier in chat or Chronobank reddit or bitcointalk.\n"
                  "*6*. I'd rather just go to public chat...")
 
-    t1 = ("*I'm a newbie! What is Chronobank?*\n"
+    t1 = ("*I'm a newbie. What is Chronobank?*\n"
           "*1*. What is Chronobank and its main idea?\n"
           "*2*. Why is ChronoBank better than any other projects and fiat currencies?\n"
           "*3*. What is TIME token and LH token?\n"
           "*4*. How can I register on your website?\n"
           "*5*. Are there any beta-versions now?")
 
-    t2 = ("*Tech and details!*\n"
-          "*1*. I wanna know about blockchain you use and tech stuff!\n"
-          "*2*. I wanna know about company and market!\n"
+    t2 = ("*Tech and details.*\n"
+          "*1*. I wanna know about blockchain you use and tech stuff.\n"
+          "*2*. I wanna know about company and market.\n"
           "*3*. I'm interested in economics. (this section is about more complicated questions of economics)\n"
-          "*4*. Future development!")
+          "*4*. Future development.")
 
-    t3 = ("*News!*\n"
+    t3 = ("*News.*\n"
           "*1*. Where can I check the progress of development?\n"
           "*2*. Where can i find official links to social media?\n")
 
-    t4 = ("*I am an investor!*\n"
+    t4 = ("*I am an investor.*\n"
           "*1*. What are the benefits for TIME holders in the future?\n"
           "*2*. How is the progress with LaborX?")
 
-    t5 = ("*I'm a sophomore (or troll)! I wanna check what already been trolled about Chronobank, so I could be"
-          " wittier in chat or Chronobank reddit or bitcointalk!*\n"
+    t5 = ("*I'm a sophomore (or troll). I wanna check what already been trolled about Chronobank, so I could be"
+          " wittier in chat or Chronobank reddit or bitcointalk.*\n"
           "*1*. When TIME will get pumped?\n"
           "*2*. I've lost 50% of my depo, why should I keep TIME?\n"
           "*3*. Why we've never heard anything from our CEO?\n"
@@ -65,7 +65,8 @@ class Texts():
             "*6*. How can I access the wallet from my phone?\n"
             "*7*. Can I exchange TIME to ETH?")
 
-    t2_1_1 = ("*What blockchain do you use?*\n"
+    t2_1_1 = ("*I wanna know about blockchain you use and tech stuff.*\n"
+              "*What blockchain do you use?*\n"
               "TIME token is on the Ethereum blockchain. LH tokens will be initially created on the Ethereum blockchain, and then the software will be ported to other blockchains: WAVES, NEM, ETC. We are focusing on the Ethereum blockchain; all others will be developed only after the system is fully operational, and there's a decent volume of LH tokens. In addition to that, we will have a 3rd party security audit of all smart contracts in the system.")
 
     t2_1_2 = ("*Is it ERC20 token?*\n"
@@ -81,8 +82,7 @@ class Texts():
               "LH tokens are not available yet.")
 
     t2_1_5 = ("*What wallet should I use for TIME and LH?*\n"
-              "asnwer in progressA fully decentralised ChronoMint wallet will be available by the end of June. "
-              "Now you can test its beta-version: https://beta.chronobank.io/")
+              "A fully decentralised ChronoMint wallet will be available soon. Now you can test its beta-version:\n" "https://beta.chronobank.io/")
 
     t2_1_6 = ("*How can I access the wallet from my phone?*\n"
               "There’ll be ChronoMint mobile application.")
@@ -90,7 +90,8 @@ class Texts():
     t2_1_7 = ("*Can I exchange TIME to ETH?*\n"
               "Yes, you can do it on https://bittrex.com or https://liqui.ioor using Changelly service " "https://changelly.com/")
 
-    t2_2 = ("*1*. What is the company structure?\n"
+    t2_2 = ("*I wanna know about company and market.*\n"
+            "*1*. What is the company structure?\n"
             "*2*. Who is the CEO of ChronoBank?\n"
             "*3*. Who will pay the fee for the use of the platform: an employee or a customer?\n"
             "*4*. What are the competitors on the market?\n"
@@ -100,10 +101,15 @@ class Texts():
               "You can check the company structure under Team section on the https://chronobank.io/")
 
     t2_2_2 = ("*Who is the CEO of ChronoBank?*\n"
-              'Sergei Sergienko. He is also a co-founder of Edway Group Ltd. He has won a number of awards in business in Australia, including "Hot 30 under 30" and "Young gun in business". He has represented Australia on G20 summits and understands how to connect real and crypto world economies.\n'
-              "https://en.wikipedia.org/wiki/Sergey_Sergienko \n"
-              "https://www.linkedin.com/in/sergeisergienko  \n"
-              "https://twitter.com/svsergienko")
+              "Sergei Sergienko. He is also a co-founder of Edway Group Ltd. He has won a number of"
+              "awards in business in Australia, including 'Hot 30 under 30' and 'Young gun in business'."
+              " He has represented Australia on G20 summits and understands how to connect real and crypto world"
+              " economies.\n")
+
+    t2_2_22 = ("https://www.linkedin.com/in/sergeisergienko \n"
+               "https://twitter.com/svsergienko\n"
+               "https://en.wikipedia.org/wiki/Sergey_Sergienko")
+
 
     t2_2_3 = ("*Who will pay the fee for the use of the platform: an employee or a customer?*\n"
               "Fee will be paid by companies using the service to finance their current operations.")
@@ -112,9 +118,10 @@ class Texts():
               "ChronoBank doesn’t have competitors per say. We are trying to change the whole labour industry not to compete with particular companies.")
 
     t2_2_5 = ("*Where is the headquarters of a project?*\n"
-              "ChronoBank core team is based in Sydney, Australia. There are a few members of our team that are based all over the world.")
+              "ChronoBank core team is based in Sydney, Australia. There are a few members of our team that are based  all over the world.")
 
-    t2_3 = ("*1*. How will you control the volatility of LH?\n"
+    t2_3 = ("*I'm interested in economics. (this section is about more complicated questions of economics)*\n"
+            "*1*. How will you control the volatility of LH?\n"
             "*2*. What about pension contributions?\n"
             "*3*. Is number of LH tokens infinite?\n")
 
@@ -129,7 +136,8 @@ class Texts():
               "The total number of coins will always depend on the number of companies in the system and labour hours available in those companies that companies are able to fulfill.")
 
 
-    t2_4 = ("*1*. When will we see release of LH?\n"
+    t2_4 = ("*Future development.*\n"
+            "*1*. When will we see release of LH?\n"
             "*2*. When will LH debit card be released?\n"
             "*3*. Do you have any beta-versions to test now?\n"
             "*4*. How will you manage relations with governments?\n"
@@ -160,7 +168,7 @@ class Texts():
               "It’s hard to give accurate forecast of the price in the crypto world. However, we on schedule to deliver our development plans (i.e. ChronoMint, LaborX platform) and in the process of securing a location for the adoption of the LaborX platform. Successful software development and mass adoption of the platform will push the price up.")
 
     t2_4_8 = ("*Are there any good news or update?*\n"
-              "Follow us on social media to stay up to date!")
+              "Follow us on social media to stay up to date.")
 
     t3_1 = ("*Where can I check the progress of development?*\n"
             "Github: https://github.com/ChronoBank\n"
@@ -195,7 +203,7 @@ class Texts():
             "https://www.linkedin.com/in/sergeisergienko \n"
             "https://twitter.com/svsergienko")
 
-    t5_4 = ("*Within this time period from ICO till now I could make more money on other coins!*\n"
+    t5_4 = ("*Within this time period from ICO till now I could make more money on other coins.*\n"
             "Yes you probably could. On the other hand, you could’ve lost money too. Although TIME token hasn’t yet experienced dramatic jump in price, it was constantly going up and didn’t lose it’s value.")
 
     t5_5 = ("*Can you give us any guarantees about that TIME will be above ICO price in 3-4 months period?*\n"

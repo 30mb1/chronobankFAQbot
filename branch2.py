@@ -55,6 +55,7 @@ def m_2_1(bot, update):
 
 def m_2_2(bot, update):
     update.message.reply_text(t.t2_2_2, reply_markup=k.l3_five, parse_mode=ParseMode.MARKDOWN)
+    update.message.reply_text(t.t2_2_22, reply_markup=k.l3_five, disable_web_page_preview=True)
     return BRANCH2_2
 
 def m_2_3(bot, update):
