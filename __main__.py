@@ -35,9 +35,9 @@ def start(bot, update):
     return MENU
 
 def menu(bot, update):
-    first_name = update.message.from.first_name
-    last_name = update.message.from.last_name
-    username = update.message.from.username
+    first_name = update.message.from_user.first_name
+    last_name = update.message.from_user.last_name
+    username = update.message.from_user.username
     file_log.info('Name: {} {}, username: {}'.format(first_name, last_name, username))
     update.message.reply_text(t.menu_text, reply_markup=k.menu_keyboard, parse_mode=ParseMode.MARKDOWN)
     return MENU
