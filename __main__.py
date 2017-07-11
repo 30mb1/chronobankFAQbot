@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import logging
+import logging.handlers
 from telegram import ParseMode
 from telegram.ext import Updater, ConversationHandler, RegexHandler, CommandHandler, MessageHandler, Filters
 from keyboards import Keyboard as k
@@ -17,12 +18,27 @@ BRANCH2_1, BRANCH2_2, BRANCH2_3, BRANCH2_4 = range(6, 10)
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
+file_log = logging.getLogger()
+file_log.setLevel(logging.INFO)
+handler = logging.handlers.RotatingFileHandler(filename="users.log", maxBytes=1000000,
+                                               backupCount=10)
+
+file_log.addHandler(handler)
+
 
 def start(bot, update):
+    first_name = update.message.from.first_name
+    last_name = update.message.from.last_name
+    username = update.message.from.username
+    file_log.info('Name: {} {}, username: {}'.format(first_name, last_name, username))
     update.message.reply_text(t.menu_text, reply_markup=k.menu_keyboard, parse_mode=ParseMode.MARKDOWN)
     return MENU
 
 def menu(bot, update):
+    first_name = update.message.from.first_name
+    last_name = update.message.from.last_name
+    username = update.message.from.username
+    file_log.info('Name: {} {}, username: {}'.format(first_name, last_name, username))
     update.message.reply_text(t.menu_text, reply_markup=k.menu_keyboard, parse_mode=ParseMode.MARKDOWN)
     return MENU
 
