@@ -34,14 +34,6 @@ def start(bot, update):
     update.message.reply_text(t.menu_text, reply_markup=k.menu_keyboard, parse_mode=ParseMode.MARKDOWN)
     return MENU
 
-def menu(bot, update):
-    first_name = update.message.from_user.first_name
-    last_name = update.message.from_user.last_name
-    username = update.message.from_user.username
-    file_log.info('Name: {} {}, username: {}'.format(first_name, last_name, username))
-    update.message.reply_text(t.menu_text, reply_markup=k.menu_keyboard, parse_mode=ParseMode.MARKDOWN)
-    return MENU
-
 def br6(bot, update):
     update.message.reply_text(t.t6, reply_markup=k.menu_keyboard, parse_mode=ParseMode.MARKDOWN)
     return MENU
@@ -52,7 +44,7 @@ def main():
     dispatcher = updater.dispatcher
 
     menu_conversation = ConversationHandler(
-        entry_points=[CommandHandler('start', start), MessageHandler(Filters.text, menu)],
+        entry_points=[CommandHandler('start', start), MessageHandler(Filters.text, start)],
 
         states={
             MENU: [RegexHandler('^(1)$', br1.m), RegexHandler('^(2)$', br2.m),
@@ -94,7 +86,7 @@ def main():
 
         },
 
-        fallbacks=[RegexHandler('^(Menu)$', menu)]
+        fallbacks=[RegexHandler('^(Menu)$', start)]
     )
 
     dispatcher.add_handler(menu_conversation)
