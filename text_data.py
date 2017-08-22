@@ -82,7 +82,7 @@ class Texts():
               "LH tokens are not available yet.")
 
     t2_1_5 = ("*What wallet should I use for TIME and LH?*\n"
-              "A fully decentralised ChronoMint wallet will be available soon. Now you can test its beta-version:\n" "https://beta.chronobank.io/")
+              "A fully decentralised ChronoMint wallet is available on the website\n https://mint.chronobank.io ")
 
     t2_1_6 = ("*How can I access the wallet from my phone?*\n"
               "There’ll be ChronoMint mobile application.")
@@ -107,8 +107,7 @@ class Texts():
               " economies.\n")
 
     t2_2_22 = ("https://www.linkedin.com/in/sergeisergienko \n"
-               "https://twitter.com/svsergienko\n"
-               "https://en.wikipedia.org/wiki/Sergey_Sergienko")
+               "https://twitter.com/svsergienko")
 
 
     t2_2_3 = ("*Who will pay the fee for the use of the platform: an employee or a customer?*\n"
@@ -139,12 +138,11 @@ class Texts():
     t2_4 = ("*Future development.*\n"
             "*1*. When will we see release of LH?\n"
             "*2*. When will LH debit card be released?\n"
-            "*3*. Do you have any beta-versions to test now?\n"
-            "*4*. How will you manage relations with governments?\n"
-            "*5*. When Chronobank is successful, how will it affect the government economies?\n"
-            "*6*. How will income tax be paid?\n"
-            "*7*. What is the forecast for the price till the end of the year?\n"
-            "*8*. Are there any good news or update?")
+            "*3*. How will you manage relations with governments?\n"
+            "*4*. When Chronobank is successful, how will it affect the government economies?\n"
+            "*5*. How will income tax be paid?\n"
+            "*6*. What is the forecast for the price till the end of the year?\n"
+            "*7*. Are there any good news or update?")
 
     t2_4_1 = ("*When will we see release of LH?*\n"
               "Beta-version will be ready by the end of the year.")
@@ -152,22 +150,19 @@ class Texts():
     t2_4_2 = ("*When will LH debit card be released?*\n"
               "LH debit card will be released when number of people using LH tokens reaches sufficient enough levels that allows creating of the financial pool which will facilitate and finance debit card issuance.")
 
-    t2_4_3 = ("*Do you have any beta-versions to test now?*\n"
-              "Yes, ChronoMint beta-version: https://beta.chronobank.io/")
-
-    t2_4_4 = ("*How will you manage relations with governments?*\n"
+    t2_4_3 = ("*How will you manage relations with governments?*\n"
               "ChronoBank team’s aim to create relationship with the governments so they adopt LaborX system. LaborX system is an open source instrument and particular governments will be able to set it up according to their requirements.")
 
-    t2_4_5 = ("*When Chronobank is successful, how will it affect the government economies?*\n"
+    t2_4_4 = ("*When Chronobank is successful, how will it affect the government economies?*\n"
               "ChronoBank aims to make economies more efficient and transparent. When system is successfully implemented it will allow to government to perform their duties (i.e. pension payments, tax collection) in effective and efficient way. In theory, it should remove unnecessary bureaucratic and admin government jobs. These newly available resources can be used in develop and improve other areas of the economy.")
 
-    t2_4_6 = ("*How will income tax be paid?*\n"
+    t2_4_5 = ("*How will income tax be paid?*\n"
               "Income tax payments is a matter of a legislation of a particular country. Due to the open source nature of the LaborX platform, particular payments (such as income tax, pension) can be set up according to the local requirements. Functionality of the LaborX system allows to make any payments automatically after completion of the hour of work.")
 
-    t2_4_7 = ("*What is the forecast for the price till the end of the year?*\n"
+    t2_4_6 = ("*What is the forecast for the price till the end of the year?*\n"
               "It’s hard to give accurate forecast of the price in the crypto world. However, we on schedule to deliver our development plans (i.e. ChronoMint, LaborX platform) and in the process of securing a location for the adoption of the LaborX platform. Successful software development and mass adoption of the platform will push the price up.")
 
-    t2_4_8 = ("*Are there any good news or update?*\n"
+    t2_4_7 = ("*Are there any good news or update?*\n"
               "Follow us on social media to stay up to date.")
 
     t3_1 = ("*Where can I check the progress of development?*\n"

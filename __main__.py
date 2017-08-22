@@ -81,7 +81,7 @@ def main():
             BRANCH2_4: [RegexHandler('^(1)$', br2.m_4_1), RegexHandler('^(2)$', br2.m_4_2),
                         RegexHandler('^(3)$', br2.m_4_3), RegexHandler('^(4)$', br2.m_4_4),
                         RegexHandler('^(5)$', br2.m_4_5), RegexHandler('^(6)$', br2.m_4_6),
-                        RegexHandler('^(7)$', br2.m_4_7), RegexHandler('^(8)$', br2.m_4_8),
+                        RegexHandler('^(7)$', br2.m_4_7),
                         RegexHandler('^(Back)$', br2.back)],
 
             BRANCH3: [RegexHandler('^(1)$', br3.m_1), RegexHandler('^(2)$', br3.m_2)],
