@@ -13,9 +13,7 @@ class Texts():
     t1 = ("*I'm a newbie. What is Chronobank?*\n"
           "*1*. What is Chronobank and its main idea?\n"
           "*2*. Why is ChronoBank better than any other projects and fiat currencies?\n"
-          "*3*. What is TIME token and LH token?\n"
-          "*4*. How can I register on your website?\n"
-          "*5*. Are there any beta-versions now?")
+          "*3*. What is TIME token and LH token?\n")
 
     t2 = ("*Tech and details.*\n"
           "*1*. I wanna know about blockchain you use and tech stuff.\n"
@@ -50,12 +48,6 @@ class Texts():
 
     t1_3 = ("*What is TIME token and LH token?*\n"
             "TIME tokens are used to finance the development of the system. It will receive fees from LH issuance and transactions. LH tokens will act as a substitute for payments in fiat currencies and will enable people to be rewarded for their work – without cryptocurrency’s signature volatility risk.")
-
-    t1_4 = ("*How can I register on your website?*\n"
-            "You can’t do it now because it was available only during our ICO.")
-
-    t1_5 = ("*Are there any beta-versions now?*\n"
-            "Yes, there is ChronoMint beta-version: https://beta.chronobank.io")
 
     t2_1 = ("*1*. What blockchain do you use?\n"
             "*2*. Is it ERC20 token?\n"
